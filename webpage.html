@@ -2,22 +2,65 @@
 <html>
     <head>
         <title>My Journey</title>
+        <style>
+            body {
+                background-color: lightcyan;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+
+        </style>
     </head>
     <body>
-        <img src="megha.jpg" >
-        <h1>My Journey at MSIT by Saimegha K</h1>
-        <h2>About me:</h2>
-        <p> I am Saimegha. I am from Mahabubnagar, Telangana. I have completed my graduation from VJIT, Hyderabad.<br/>
+        <h1 style = "color :crimson;text-align : center;">My Journey at MSIT by Saimegha K</h1>
+        <img src="megha.jpg" height = "25%" >
+        <h1 style = "color : green;text-align : left;"> About me:</h1>
+        <h2 style = " color : blue;"> I am Saimegha. I am from Mahabubnagar, Telangana. I have completed my graduation from VJIT, Hyderabad.
             <ul>
-                <li>Hobbies: Cooking, Travelling,Singing.</li>
-                <li>Strengths: Hardworking,Modest.</li>
+                <li style = " color : blue;">Hobbies: Cooking, Travelling,Singing.</li>
+                <li style = " color : blue;">Strengths: Hardworking,Modest.</li>
             </ul>
-        </p>
-        <h2>List of courses learnt.</h2>
-        <table>
+        </h2>
+        <h1 style = "color : mediumvioletred;text-align : center;">List of courses learnt.</h1>
+        <style>
+            td {
+                color: dodgerblue;
+                text-align: center;
+                border: 1px solid black;
+            }
+            table {
+                border: 2px solid black;
+                font-size: large;
+                border-collapse: collapse;
+            }
+            th {
+                border: 1px solid black;
+            }
+            input[type=text] {
+                width: 75%;
+                padding: 12px 20px;
+                margin: 12px 0;
+                box-sizing: border-box;
+            }
+            button {
+                display: inline-block;
+                padding: 15px 25px;
+                font-size: 24px;
+                font-weight: 900;
+                cursor: pointer;
+                text-align: center;
+                text-decoration: none;
+                outline: none;
+                color: #fff;
+                background-color: darkslateblue;
+                border: none;
+                border-radius: 15px;
+                box-shadow: 0 9px #999;
+            }
+        </style>
+        <table align="center">
             <tr>
-                <th>Course Name</th>
-                <th>Expreience</th>
+                <th style = "color : brown;text-align : left;padding: 20px;">Course Name</th>
+                <th style = "color : brown;text-align : left;padding: 20px;">Expreience</th>
             </tr>
             <tr>
                 <td>CT</td><td>Good</td>
@@ -54,8 +97,9 @@
             </tr>
         </table>
         <form>
-            <label for="feedback">Your feedback on my profile:</label><br/>
+            <label for="feedback"><h2 style = "color : orangered">Your feedback on my profile:</h2></label>
             <input type="text" id="feedback" name="feedback"><br/>
         </form>
+        <button>submit</button>
     </body>
 </html>
