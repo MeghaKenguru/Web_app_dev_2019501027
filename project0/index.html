@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
+        <title>My Home page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     </head>
     <body>
         <h1 align = "center"> My Webpage</h1>
-        <h2>Hello, everyone! I am Saimegha.</h2>
-        <h3>To know more about me go to <a href = "./page1.html">@myprofile</a> page.</h3>
-        <h3>To know about the projects that I have done in my B.teck go to <a href = "./graduationprojects.html">mygraduationprojects@saimegha</a>.</h3>
-        <h3>To know about my PG projects go to <a href = "./pgprojects.html">mypgprojects@saimegha</a>.</h3>
+        <div class="jumbotron">
+            <h1 class="display-4">Hello, everyone! I am Saimegha.</h1>
+            <p class="lead">Click on the below buttons depending upon what you want to know about me.</p>
+            <hr class="my-4">
+            <a class="btn btn-primary btn-lg" href="./page1.html" role="button">My profile</a>
+            <a class="btn btn-primary btn-lg" href="./graduationprojects.html" role="button">Graduation projects</a>
+            <a class="btn btn-primary btn-lg" href="./pgprojects.html" role="button">PG projects</a>
+        </div>
+        <form>
+            <div>
+                <h3>Your feedback on my profile:</h3>
+                <input name="Comment" type="text" placeholder="Comment" size = 100>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
     </body>
 </html>
