@@ -2,9 +2,23 @@
 <html>
     <head>
         <title>My profile</title>
+        <link rel="stylesheet" type = "text/css" href= "./stylesheet1.css">
     </head>
+    <style>
+        @media (min-width: 500px) {
+            h1::before {
+                content: "My Profile: ";
+            }
+        }
+
+        @media (max-width: 499px) {
+            h1::before {
+                content: "";
+            }
+        }
+    </style>
     <body>
-        <h1 align = "center">My Profile: Saimegha Kenguru </h1>
+        <h1 align = "center">Saimegha Kenguru </h1>
         <img src = "megha.JPG" width = 25% class = "center">
         <h2>About me:</h2>
         <p> Hello! I am Saimegha. I am born and brought up in Mahabubnagar, Telangana.
@@ -13,31 +27,23 @@
             Since my childhood I have always been hardworking and persistant towards the work I do. I am always ready to take critical feedback and work on it.
         </p>
         <div class="container">
-            <div class="row">
-              <div class="col-lg-4 col-sm-12">
-                <h2>Hobbies:</h2>
-                <ul>
-                    <li>Cooking</li>
-                    <li>Singing</li>
-                    <li>Travelling</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 col-sm-12">
-                <h2>Strengths:</h2>
-                <ul>
-                    <li>Hard work</li>
-                    <li>Persistance</li>
-                    <li>Modest</li>
-                </ul>
-              </div>
-              <div class="col-lg-4 col-sm-12">
-                <h2>Area of Interest:</h2>
-                <ul>
-                    <li>Data Science</li>
-                    <li>Networking</li>
-                </ul>
-              </div>
-            </div>
+            <h2>Hobbies:</h2>
+            <ul>
+                <li>Cooking</li>
+                <li>Singing</li>
+                <li>Travelling</li>
+            </ul>
+            <h2>Strengths:</h2>
+            <ul>
+                <li>Hard work</li>
+                <li>Persistance</li>
+                <li>Modest</li>
+            </ul>
+            <h2>Area of Interest:</h2>
+            <ul>
+                <li>Data Science</li>
+                <li>Networking</li>
+            </ul>
           </div>
         <h2>More About me:</h2>
         <p>My goal is to become a data scientist. I have always wanted to work with Microsoft since I like the company's work culture.</p>
@@ -48,25 +54,19 @@
         </p>
         <h2>Skill set:</h2>
         <div class="container">
-            <div class="row">
-              <div class="col-sm">
-                <ul>
-                    <li>Python</li>
-                    <li>Core Java</li>
-                    <li>SQL</li>
-                    <li>Data Structures</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Bootstrap</li>
-                </ul>
-              </div>
-              <div class="col-sm">
-                <ul>
-                    <li>MATLAB</li>
-                    <li>Embedded system design and programming</li>
-                    <li>VLSI design</li>
-                    <li>Assembly Level Programming(MASM)</li>
-                </ul>
+            <ul>
+                <li>Python</li>
+                <li>Core Java</li>
+                <li>SQL</li>
+                <li>Data Structures</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>MATLAB</li>
+                <li>Embedded system design and programming</li>
+                <li>VLSI design</li>
+                <li>Assembly Level Programming(MASM)</li>
+            </ul>
               </div>
             </div>
           </div>

@@ -1,0 +1,16 @@
+$color: darkblue;
+
+ul {
+    font-size: 14px;
+    color: $color;
+}
+
+h2 {
+    font-size: 18px;
+    color: $color;
+}
+
+ol > li {
+    font-size: 14px;
+    color: red;
+}

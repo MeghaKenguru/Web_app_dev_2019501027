@@ -1,0 +1,25 @@
+.container {
+    background-color: rgb(240, 145, 208);
+    font-size: medium;
+}
+body {
+    font-size: large;
+    background-color: floralwhite;
+    font-style: italic;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p::selection {
+    color: white;
+    background-color: red;
+}
+a {
+    font-weight: bold;
+}
+a:hover {
+    color: red;
+}
