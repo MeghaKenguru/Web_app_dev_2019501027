@@ -3,11 +3,24 @@
     <head>
         <title>My Web page</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+          @media (min-width: 500px) {
+              h2::before {
+                  content: "Hello, everyone!";
+              }
+          }
+
+          @media (max-width: 499px) {
+              h2::before {
+                  content: "Hi!";
+              }
+          }
+      </style>
     </head>
     <body>
         <h1 align = "center"> My  Home page</h1>
         <div class="jumbotron">
-            <h1 class="display-4">Hello, everyone! I am Saimegha.</h1>
+            <h2 class="display-4">I am Saimegha.</h2>
             <p class="lead">Click on the below buttons depending upon what you want to know about me.</p>
             <hr class="my-4">
             <div class="container">
