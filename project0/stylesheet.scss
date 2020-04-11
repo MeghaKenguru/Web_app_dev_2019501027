@@ -1,16 +1,59 @@
 $color: darkblue;
 
-ul {
-    font-size: 14px;
+ul,h2 {
     color: $color;
 }
-
-h2 {
-    font-size: 18px;
-    color: $color;
+h3, h2 {
+    font-size: x-large;
 }
 
 ol > li {
-    font-size: 14px;
+    font-size: large;
     color: red;
+}
+
+%message {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.success {
+    @extend %message;
+    background-color: yellow;
+}
+
+.warning {
+    @extend %message;
+    background-color: orange;
+}
+
+.error {
+    @extend %message;
+    background-color: skyblue;
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+table {
+    border: 2px solid black;
+    font-size: x-large;
+    border-collapse: collapse;
+}
+th {
+    border: 1px solid black;
+}
+p {
+    font-size: larger;
+}
+#id {
+    text-align: center;
+}
+body {
+    background-color: cornsilk;
 }

@@ -1,0 +1,49 @@
+ul, h2 {
+  color: darkblue; }
+
+h3, h2 {
+  font-size: x-large; }
+
+ol > li {
+  font-size: large;
+  color: red; }
+
+.success, .warning, .error {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.success {
+  background-color: yellow; }
+
+.warning {
+  background-color: orange; }
+
+.error {
+  background-color: skyblue; }
+
+td {
+  text-align: center;
+  border: 1px solid black; }
+
+table {
+  border: 2px solid black;
+  font-size: x-large;
+  border-collapse: collapse; }
+
+th {
+  border: 1px solid black; }
+
+p {
+  font-size: larger; }
+
+#id {
+  text-align: center; }
+
+body {
+  background-color: cornsilk; }
+
+/*# sourceMappingURL=stylesheet.css.map */
