@@ -1,10 +1,16 @@
-ul, h2 {
+h1 {
+  color: darkgreen; }
+
+ol, h2 {
   color: darkblue; }
 
 h3, h2 {
   font-size: x-large; }
 
-ol > li {
+h3 {
+  color: darkblue; }
+
+ul > li {
   font-size: large;
   color: red; }
 
@@ -38,7 +44,8 @@ th {
   border: 1px solid black; }
 
 p {
-  font-size: larger; }
+  font-size: larger;
+  color: red; }
 
 #id {
   text-align: center; }

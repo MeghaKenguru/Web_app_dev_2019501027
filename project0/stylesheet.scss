@@ -1,13 +1,20 @@
 $color: darkblue;
 
-ul,h2 {
+h1 {
+    color: darkgreen;
+}
+
+ol,h2 {
     color: $color;
 }
 h3, h2 {
     font-size: x-large;
 }
+h3 {
+    color:darkblue;
+}
 
-ol > li {
+ul > li {
     font-size: large;
     color: red;
 }
@@ -50,6 +57,7 @@ th {
 }
 p {
     font-size: larger;
+    color: red;
 }
 #id {
     text-align: center;
