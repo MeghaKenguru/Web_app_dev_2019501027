@@ -1,6 +1,9 @@
 h1 {
   color: darkgreen; }
 
+body {
+  font-style: italic; }
+
 ol, h2 {
   color: darkblue; }
 
